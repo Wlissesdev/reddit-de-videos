@@ -1,0 +1,16 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Mídia e conteúdo gerado (pesado / pessoal)
+input/*.mp4
+input/stories.json
+output/
+frames/
+
+# Temporários
+*.log
+.DS_Store
+Thumbs.db

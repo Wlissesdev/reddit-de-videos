@@ -1,0 +1,26 @@
+# Voz alemã gratuita via Edge TTS (Microsoft)
+voice: de-DE-ConradNeural  # alternativas: de-DE-KatjaNeural, de-DE-KillianNeural
+
+# Resolução de saída (vertical para TikTok/Reels/Shorts)
+width: 1080
+height: 1920
+
+# Balão Reddit (fase do título)
+bubble:
+  duration_padding: 0.4   # segundos extras após o TTS do título
+  fade_out: 0.3           # fade out do balão
+  subreddit: r/Geschichten
+  username: u/Anonym
+  upvotes: "2,4k"
+  comments: "187"
+
+# Legendas
+subtitles:
+  font_size: 52
+  font_name: Arial
+  margin_bottom: 120
+  max_chars_per_line: 28
+
+# Vídeo de fundo
+video:
+  loop: true              # repetir o vídeo se for mais curto que o áudio
